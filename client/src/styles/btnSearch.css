@@ -1,0 +1,11 @@
+.btnSearch {
+  all: unset;
+  padding: 0.55em;
+  font-size: 1.4em;
+  background: grey;
+  border-radius: 0em 0.1em 0.1em 0em;
+  border: 1.5px solid transparent;
+}
+.btnSearch:hover {
+  background: rgba(0, 153, 255, 0.575);
+}

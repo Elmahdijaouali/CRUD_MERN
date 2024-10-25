@@ -1,0 +1,13 @@
+button {
+  all: unset;
+  padding: 0.5em 1.5em;
+  font-size: 1.2em;
+  background: grey;
+  border-radius: 0.3em;
+  border: 1.5px solid transparent;
+}
+button:hover {
+  border: 1.5px solid rgba(0, 153, 255, 0.699);
+  box-shadow: 0px 0px 15px rgba(0, 153, 255, 0.575);
+  background: rgba(0, 153, 255, 0.575);
+}

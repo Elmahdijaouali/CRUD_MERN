@@ -1,0 +1,19 @@
+.inputSearch {
+  all: unset;
+  max-width: 600px;
+  padding: 0.6em;
+  font-size: 1.4em;
+  background: rgb(88, 88, 88);
+  color: white;
+  border-radius: 0.1em;
+  margin: 2em auto;
+}
+.inputSearch::placeholder {
+  color: rgb(219, 215, 215);
+}
+
+@media (min-width: 1000px) {
+  .inputSearch {
+    width: 700px;
+  }
+}
